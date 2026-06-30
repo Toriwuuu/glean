@@ -1,0 +1,12 @@
+{
+  "name": "glean",
+  "version": "1.0.0",
+  "description": "Glean — turn the design inspiration you collect into a searchable, AI-analyzed knowledge base in Eagle and Obsidian",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "node --test"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}

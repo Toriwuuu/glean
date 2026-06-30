@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "notifyOnFinish": true,
+  "schedule": {
+    "frequency": "weekly",
+    "weekday": 1,
+    "day": 1,
+    "hour": 12,
+    "minute": 0
+  },
+  "local": {
+    "enabled": true,
+    "mode": "eagle",
+    "eagleSourceFolderName": "Glean Inbox",
+    "eagleFolderName": "Glean",
+    "inboxDir": "",
+    "analyze": true,
+    "maxPerRun": 20,
+    "extraTags": ["glean"]
+  },
+  "analysis": {
+    "enabled": true,
+    "engine": "claude",
+    "mode": "full",
+    "maxAnalysesPerRun": 20,
+    "claudeBin": "",
+    "model": "sonnet",
+    "userRole": "資深 UI/UX 設計研究者",
+    "audience": "想豐富作品集的 UI/UX 設計師",
+    "customSections": []
+  },
+  "obsidian": {
+    "enabled": true,
+    "vaultDir": "",
+    "dailySubdir": "glean",
+    "attachmentsSubdir": "attachments",
+    "maintainIndex": true
+  },
+  "eagle": {
+    "enabled": true
+  }
+}
