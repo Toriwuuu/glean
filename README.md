@@ -105,9 +105,7 @@ You can also schedule it to run automatically (daily / weekly) from the dashboar
 
 ## Privacy
 
-Glean runs entirely on your machine, and the dashboard binds only to `127.0.0.1` (with Origin/Host checks against CSRF). The only outbound connection is to the AI model you choose (Claude), for analysis. Your images and notes stay on your own computer.
-
-> Note: the dashboard loads a web font from Google Fonts; if you'd rather make zero external requests, self-host the font.
+Glean runs entirely on your machine, and the dashboard binds only to `127.0.0.1` (with Origin/Host checks against CSRF). The dashboard loads no external resources — no web fonts, CDNs, or analytics; it uses system fonts. The only outbound connection is to the AI model you choose (Claude), for analysis. Your images and notes stay on your own computer.
 
 ---
 
